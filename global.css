@@ -12,7 +12,7 @@ body {
     background-color: #0B1F22;
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(56, 78, 86, 0)
     20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1)), 
-    linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%,
+    linear-gradient(45deg, black  25%, transparent 25%, transparent 75%, black 75%,
     black), 
     linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
     background-size: 100% 100%, 10px 10px, 10px 10px, 10px 5px;
@@ -25,8 +25,16 @@ div {
 
 .menu {
     flex-direction: column;
-    background-color: #BC2A3D;
+    background-image: linear-gradient(to right, rgb(41, 5, 5), rgba(56, 78, 86, 0)
+    20%, rgba(0,0,0,0) 80%, rgb(39, 5, 5)), 
+    linear-gradient(45deg, rgb(0, 0, 0)  25%, transparent 25%, transparent 75%, rgb(7, 7, 7) 75%,
+    black), 
+    linear-gradient(45deg, rgb(85, 8, 8) 25%, transparent 25%, transparent 75%, rgb(47, 5, 5) 75%, rgb(55, 10, 10)), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+    background-size: 100% 100%, 10px 10px, 10px 10px, 10px 5px;
+    background-position: 0px 0px, 0px 0px, 5px 5px, 0px 0px;
+
     color: #0B1F22;
+    border-bottom: 1px solid rgb(56, 69, 75);
 }
 
 .menu > :nth-child(1) {
@@ -36,8 +44,15 @@ div {
     font-size: 40px;
 }
 
-.menu > :nth-child(1) > div {
+.menu > :nth-child(1) > a {
     padding: 8px;
+    margin: 20px;
+    font-family: "Josefin";
+    font-weight: bold;
+    font-size: 60px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+
 }
 
 .menu :nth-child(2) {
@@ -51,14 +66,15 @@ div {
     font-weight: 300;
     font-size: 20px;
     text-decoration: none;
-    color: #0B1F22;
+    color: #defffb;
 }
 
 .menu :nth-child(2) a:hover {
-    color: #28F1DA ;
+    color: #ffffff ;
 }
 
 .paginaPrincipal {
+    flex-direction: column;
     height: 100%;
 }
 
