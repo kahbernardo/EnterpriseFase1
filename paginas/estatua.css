@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500&display=swap");
 
-.b-estatua {
-  background-image: url(../images/estatua3.jpg);
+.bEestatua {
+  background-image: url(../images/estatua5.jpg);
   background-repeat: no-repeat;
   background-size: cover, 0%;
-  height: 800px;
+  height: 600px;
 }
 
-.desc-est-lib {
+.descLiberdade {
   display: flex;
   flex-direction: column;
   margin: 40px 15%;
@@ -19,7 +19,7 @@ h1 {
   font-weight: bold;
   letter-spacing: 1.5px;
   text-align: center;
-  color: rgb(255, 255, 152);
+  color: #bc2a3d;
 }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
   font-weight: bold;
   letter-spacing: 1.5px;
   text-align: center;
-  color: rgb(255, 255, 152);
+  color: #bc2a3d;
 }
 
 p {
@@ -41,13 +41,18 @@ p {
 
 ul {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Josefin", sans-serif;
   font-weight: 100;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 li {
-  margin: 0 10px;
-  padding: 0 10px;
+  padding: 10px 0;
+  word-spacing: 2px;
+}
+
+.menuBox {
+  justify-content: flex-start;
+  border-bottom: 1px solid #bc2a3d;
 }
