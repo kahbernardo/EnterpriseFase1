@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500&display=swap");
 
-.bEestatua {
+.bEstatua {
   background-image: url(../images/estatua5.jpg);
   background-repeat: no-repeat;
   background-size: cover, 0%;
@@ -55,4 +55,15 @@ li {
 .menuBox {
   justify-content: flex-start;
   border-bottom: 1px solid #bc2a3d;
+  font-size: 25px;
+  font-family: "Josefin", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  text-align: justify;
+  color: #fff;
+  padding: 8px 0;
+}
+
+.menuBox > :nth-child(1) {
+  width: 500px;
 }
