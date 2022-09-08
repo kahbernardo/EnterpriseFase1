@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500&display=swap");
+
+.b-estatua {
+  background-image: url(../images/estatua3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover, 0%;
+  height: 800px;
+}
+
+.desc-est-lib {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 15%;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Josefin", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: rgb(255, 255, 152);
+}
+
+h2 {
+  font-family: "Josefin", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: rgb(255, 255, 152);
+}
+
+p {
+  font-size: 25px;
+  font-family: "Josefin", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  text-align: justify;
+  color: #fff;
+}
+
+ul {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Josefin", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+}
+
+li {
+  margin: 0 10px;
+  padding: 0 10px;
+}

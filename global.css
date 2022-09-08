@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100vh;
     font-family: "Josefin";
     font-weight: 100;
     background-color: #0B1F22;
@@ -39,7 +38,7 @@ div {
 
 .menu > :nth-child(1) {
     justify-content: center;
-    font-family: "Josefin";
+    font-family: "Josefin", sans-serif;
     font-weight: 500;
     font-size: 40px;
 }
@@ -47,7 +46,7 @@ div {
 .menu > :nth-child(1) > a {
     padding: 8px;
     margin: 20px;
-    font-family: "Josefin";
+    font-family: "Josefin", sans-serif";
     font-weight: bold;
     font-size: 60px;
     text-decoration: none;
@@ -62,7 +61,7 @@ div {
 .menu :nth-child(2) a {
     padding: 8px;
     margin: 8px 15px;
-    font-family: "Josefin";
+    font-family: "Josefin", sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-decoration: none;
