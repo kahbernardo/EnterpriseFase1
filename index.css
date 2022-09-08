@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500&display=swap');
 
 .banner {
-    background-image: url(../images/banner.jpg);
-    height: 1000px;
+    background-image: url(../images/nyhome.jpg);
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover, contain;
@@ -21,7 +21,7 @@ h1, h2{
     font-weight: bold;
     letter-spacing: 1.5px;
     text-align: center;
-    color: rgb(255, 255, 152);
+    color: #BC2A3D;
 }
 
 p {

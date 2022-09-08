@@ -16,6 +16,7 @@ body {
     linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
     background-size: 100% 100%, 10px 10px, 10px 10px, 10px 5px;
     background-position: 0px 0px, 0px 0px, 5px 5px, 0px 0px;
+    font-family: "Josefin", sans-serif;
 }
 
 div {
@@ -24,29 +25,74 @@ div {
 
 .menu {
     flex-direction: column;
-    background-image: linear-gradient(to right, rgb(41, 5, 5), rgba(56, 78, 86, 0)
+    /* background-image: linear-gradient(to right, rgb(41, 5, 5), rgba(56, 78, 86, 0)
     20%, rgba(0,0,0,0) 80%, rgb(39, 5, 5)), 
     linear-gradient(45deg, rgb(0, 0, 0)  25%, transparent 25%, transparent 75%, rgb(7, 7, 7) 75%,
     black), 
     linear-gradient(45deg, rgb(85, 8, 8) 25%, transparent 25%, transparent 75%, rgb(47, 5, 5) 75%, rgb(55, 10, 10)), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
     background-size: 100% 100%, 10px 10px, 10px 10px, 10px 5px;
-    background-position: 0px 0px, 0px 0px, 5px 5px, 0px 0px;
-
+    background-position: 0px 0px, 0px 0px, 5px 5px, 0px 0px; */
+background-color: #BC2A3D;
     color: #0B1F22;
     border-bottom: 1px solid rgb(56, 69, 75);
+    width: 100%;
+    
+}
+.menuItem {
+    background-color: #BC2A3D;
+    color: #0B1F22;
+    border-bottom: 4px solid rgb(56, 69, 75);
+    border: 1px solid rgb(56, 69, 75);
+    border-top: none;
+    height: 100px;
+    width: 33.3%;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin", sans-serif;
+    cursor:pointer;
+    
 }
 
+.menuItem:hover {
+    color: #2BF1DA ;
+    background-color:#0B1F22;
+    border-bottom: 2px solid #2BF1DA;
+    
+}
+
+a {
+    font-size: 30px;
+    font-family: "Josefin", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1.0px;
+    text-decoration: none;
+    color: #defffb;
+}
+
+.menuItem a:hover {
+    color: #2BF1DA ;
+    width: 100%;
+    text-align: center;
+    
+}
+.menuRow {
+    width: 100%;
+}
+.menuRow > :nth-child(1) {
+    border-left: none;
+}
+.menuRow > :last-child {
+    border-right: none;
+}
 .menu > :nth-child(1) {
     justify-content: center;
-    font-family: "Josefin", sans-serif;
+    height: 170px;
     font-weight: 500;
     font-size: 40px;
+    align-items: center;
 }
 
-.menu > :nth-child(1) > a {
-    padding: 8px;
-    margin: 20px;
-    font-family: "Josefin", sans-serif";
+.menu > :nth-child(1) > a {   
     font-weight: bold;
     font-size: 60px;
     text-decoration: none;
@@ -58,18 +104,10 @@ div {
     justify-content: center;
 }
 
-.menu :nth-child(2) a {
-    padding: 8px;
-    margin: 8px 15px;
-    font-family: "Josefin", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    text-decoration: none;
-    color: #defffb;
-}
 
-.menu :nth-child(2) a:hover {
-    color: #ffffff ;
+
+.menuItem a:hover {
+    color: #2BF1DA ;
 }
 
 .paginaPrincipal {
